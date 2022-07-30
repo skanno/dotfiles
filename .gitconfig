@@ -1,0 +1,16 @@
+[init]
+	defaultBranch = master
+
+[user]
+	name = Shoichiro KANNO
+	email = s-kanno@qb3.so-net.ne.jp
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+	autocrlf = false
+	quotepath = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	logs = log --decorate --graph --branches --tags --remotes
