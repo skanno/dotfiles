@@ -12,5 +12,5 @@ if [ -f ~/git-completion.bash -a -f ~/git-prompt.sh ]; then
   source ~/git-completion.bash
   GIT_PS1_SHOWDIRTYSTATE=1
   source ~/git-prompt.sh
-  PS1="[\[\e[1;31m\]\u\[\e[m\]\[\e[1;34m\]@\[\e[m\]\[\e[1;33m\]\H\[\e[m\] \[\e[1;34m\]\W\[\e[m\]\[\e[1;35m\]$(__git_ps1 " (%s)")\[\e[m\] \[\e[1;36m\]\D{%F %T}\[\e[m\]]\[\e[1;34m\]\$\[\e[m\] "
+  PS1='[\u@\H \D{%F %T} \W$(__git_ps1 " (%s)")]\$ '
 fi
