@@ -14,3 +14,5 @@
 	branch = auto
 [alias]
 	logs = log --decorate --graph --branches --tags --remotes
+[safe]
+	directory = *
