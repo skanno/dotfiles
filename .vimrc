@@ -5,4 +5,5 @@ set cursorline
 set laststatus=2
 set tabstop=4
 set shiftwidth=4
-
+set list
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
